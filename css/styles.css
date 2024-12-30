@@ -1,0 +1,514 @@
+
+/* header */
+
+header
+{
+    background-color: #012D63;
+}
+
+header a, header label
+{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28.13px;
+    color: #C7C7C7;
+}
+
+header .container
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header ul
+{
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+
+header ul:first-of-type
+{
+    gap: 29px;
+}
+
+header li:first-of-type a
+{
+    color: #FFFFFF;
+}
+
+header li:last-of-type label
+{
+    color: #FFFFFF;
+}
+
+header a:hover
+{
+    color: #FFFFFF;
+}
+
+header ul:last-of-type
+{
+    gap: 8px;
+}
+
+/* main */
+
+/* section 1 */
+
+.nike-air
+{
+    background-image: url(../img/nike-background.png);
+    background-size: 1440px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #02081c;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.nike-air .container
+{
+    height: 858px;
+}
+
+.nike-air .content
+{
+    display: flex;
+    flex-direction: column;
+    padding: 94px 15px 183px;
+}
+
+.nike-air .img
+{
+    position: relative;
+}
+
+.nike-air h3
+{
+    font-family: 'PT Serif';
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 63.6px;
+    position: absolute;
+    top: 85px;
+    left: 25px;
+}
+
+.nike-air h2:first-of-type
+{
+    font-family: 'Playfair Display';
+    font-size: 144px;
+    font-weight: 400;
+    line-height: 191.95px;}
+
+.nike-air h2:last-of-type
+{
+    position: absolute ;
+    font-family: 'Playfair Display';
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 95.98px;
+    top: 156px;
+    left: 8px;
+}
+
+.nike-air .text
+{
+    position: relative;
+}
+
+.nike-air h5
+{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    max-width: 508px;
+    margin-top: 72px;
+}
+
+.nike-air button
+{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    background-color: #8E32C6;
+    border-radius: 10px;
+    padding: 20px 61px 19px;
+    margin-top: 41px;
+}
+
+/* section 2 */
+
+.about
+{
+    background-image: url(../img/circles-background.png);
+    background-size: 1440px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #021635;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.about .container
+{
+    height: 606px;
+    align-content: center;
+}
+
+.about ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 95px;
+    border: 5px solid #8E32C6;
+    padding: 25px 50px 19px;
+}
+
+.about h3
+{
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 47.99px;  
+    max-width: 160px; 
+    text-align: center;
+}
+
+.about li
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.about li:first-of-type
+{
+    border-right: 1px solid #FFFFFF;
+    padding-right: 50px;
+}
+
+.about li:last-of-type
+{
+    border-left: 1px solid #FFFFFF;
+    padding-left: 50px;
+}
+
+/* section 3 */
+
+.reviews
+{
+    background-image: url(../img/circle-background.png);
+    background-size: 1440px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #021635;
+    height: 520px;
+    border-bottom: 2px solid #FFFFFF;
+    position: relative;
+}
+
+.reviews > img
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.reviews h2
+{
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 63.98px;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.reviews h3
+{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    padding-bottom: 8px;
+}
+
+.reviews h4
+{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    padding-bottom: 47px;
+}
+
+.reviews h5
+{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+}
+
+.reviews h6
+{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+}
+
+.reviews ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 93px;
+}
+
+.reviews li
+{
+    border-radius: 15px;
+    padding: 49px 14px 29px;
+    max-width: 230px;
+    position: relative;
+    z-index: 1;
+}
+
+.reviews li > div
+{
+    display: flex;
+}
+
+.reviews .text
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+}
+
+.reviews li img
+{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviews .child1
+{
+    background: linear-gradient(135deg, #00E5E6, #00A8F7, #9A76F9, #CC5EC2);
+}
+
+.reviews .child1::after
+{
+    background-color: #7b54b2;
+
+}
+
+.reviews .child1::before
+{
+    background-color: #533978;
+
+}
+
+.reviews .child2
+{
+    background: linear-gradient(135deg, #FF68B4, #FF45E1, #CE3AFF, #8961FF);
+}
+
+.reviews .child2::after
+{
+    background-color: #9159b1;
+}
+
+.reviews .child2::before
+{
+    background-color: #61337c;
+}
+
+.reviews .child3
+{
+    background: linear-gradient(135deg, #FFE128, #FF9B5C, #FF8381, #FF5489);
+}
+
+.reviews .child3::after
+{
+    background-color: #b95a4c;
+}
+
+.reviews .child3::before
+{
+    background-color: #732f26;
+}
+
+.reviews li::after
+{
+    content: '';
+    height: 30px;
+    width: 230px;
+    position: absolute;
+    bottom: -15px;
+    border-radius: 15px;
+    z-index: 0;
+}
+
+.reviews li::before
+{
+    content: '';
+    height: 30px;
+    width: 230px;
+    position: absolute;
+    bottom: -20px;
+    border-radius: 3px;
+    z-index: -1;
+}
+
+/* section 4 */
+
+.order
+{
+    background-image: url(../img/wild-background.png);
+    background-size: 1440px;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-color: #021635;
+    border-bottom: 2px solid #FFFFFF;
+    position: relative;
+}
+
+.order ul
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+}
+
+.order .container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 39px;
+    padding: 20px 15px 37px;
+}
+
+.order h2
+{
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 63.98px;
+    text-align: center;
+}
+
+.order input
+{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32.81px;
+    color: #959595;
+    width: 580px;
+    border-radius: 50px;
+    padding: 11px 24px;
+}
+
+.order li:first-of-type input
+{
+    width: 690px;
+    padding: 12px 25px 13px;
+}
+
+.order .confirm
+{
+    position: absolute;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32.81px;
+    color: #8D8D8D;
+    right: 78px;
+    top: 12px;
+}
+
+.order .child
+{
+    position: relative;
+}
+
+.order-button
+{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    background-color: #8E32C6;
+    padding: 20px 48px;
+    border-radius: 16px;
+}
+
+/* footer */
+
+footer
+{
+    background-color: #021635;
+}
+
+footer .container
+{
+    padding: 45px 15px 50px;
+}
+
+footer .support
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #9B9B9B;
+}
+
+footer .support a
+{
+    text-decoration: underline;
+}
+
+footer .support li
+{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+}
+
+footer .rights li
+{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+}
+
+footer .rights
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h3
+{
+    font-family: 'PT Serif';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.8px;
+    position: absolute;
+    top: 62px;
+    left: 26px;
+}
+
+footer .ul-2
+{
+    text-align: right;
+}
+
+footer .img
+{
+    position: relative;
+}
+
+footer .rights li:first-of-type
+{
+    padding: 24px 0 7px;
+}
