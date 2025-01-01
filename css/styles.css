@@ -264,16 +264,16 @@ header ul:last-of-type
     gap: 93px;
 }
 
-.reviews li
+.reviews li .content
 {
+    position: relative;
     border-radius: 15px;
     padding: 49px 14px 29px;
     max-width: 230px;
-    position: relative;
-    z-index: 1;
+    z-index: 3;
 }
 
-.reviews li > div
+.reviews li .img
 {
     display: flex;
 }
@@ -291,74 +291,95 @@ header ul:last-of-type
     object-fit: cover;
 }
 
-.reviews .child1
+.reviews .child1 .content
 {
     background: linear-gradient(135deg, #00E5E6, #00A8F7, #9A76F9, #CC5EC2);
 }
 
-.reviews .child1::after
-{
-    background-color: #7b54b2;
-
-}
-
-.reviews .child1::before
-{
-    background-color: #533978;
-
-}
-
-.reviews .child2
+.reviews .child2 .content
 {
     background: linear-gradient(135deg, #FF68B4, #FF45E1, #CE3AFF, #8961FF);
 }
 
-.reviews .child2::after
-{
-    background-color: #9159b1;
-}
-
-.reviews .child2::before
-{
-    background-color: #61337c;
-}
-
-.reviews .child3
+.reviews .child3 .content
 {
     background: linear-gradient(135deg, #FFE128, #FF9B5C, #FF8381, #FF5489);
 }
 
-.reviews .child3::after
+.child1
+{
+    position: relative;
+}
+
+.child2
+{
+    position: relative;
+}
+
+.child3
+{
+    position: relative;
+}
+
+.backgroundfather
+{
+    position: absolute;
+    z-index: 2;
+    width: 258px;
+    display: flex;
+    justify-content: center;
+    bottom: 37px;
+}
+
+.top
+{
+    width: 240px;
+    height: 50px;
+    position: absolute;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+.bottom
+{
+    width: 210px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    border-radius: 3px;
+    z-index: 1;
+}
+
+.bchild1
+{
+    background-color: #7b54b2;
+}
+
+.bchild2
+{
+    background-color: #533978;
+}
+
+.bchild3
+{
+    background-color: #9159b1;
+}
+
+.bchild4
+{
+    background-color: #61337c;
+}
+
+.bchild5
 {
     background-color: #b95a4c;
 }
 
-.reviews .child3::before
+.bchild6
 {
     background-color: #732f26;
 }
 
-.reviews li::after
-{
-    content: '';
-    height: 30px;
-    width: 230px;
-    position: absolute;
-    bottom: -15px;
-    border-radius: 15px;
-    z-index: 0;
-}
-
-.reviews li::before
-{
-    content: '';
-    height: 30px;
-    width: 230px;
-    position: absolute;
-    bottom: -20px;
-    border-radius: 3px;
-    z-index: -1;
-}
 
 /* section 4 */
 
